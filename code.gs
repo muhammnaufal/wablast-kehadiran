@@ -19,8 +19,8 @@ function starsender(event){
     var phonenumber = rowData[10];
     var validPhoneNumber = String(phonenumber).replace(/[^0-9]/g, ''); 
 
-    var APIKey = "123db424-9539-4582-b074-51a871f54005";
-    var url = "https://api.starsender.online/api/send";
+    var APIKey = "API_KEY";
+    var url = "URL_KEY";
 
      Logger.log("Phone number (to): " + validPhoneNumber);
 
